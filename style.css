@@ -1,0 +1,50 @@
+body{
+    background-image: url(images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    
+}
+nav{
+    background-color: palevioletred;
+    height: 40px;
+}
+nav a{
+    margin: 30px;
+    padding: 50px 30px 30px 200px;
+}
+nav ul{
+    text-decoration: none;
+}
+nav li{
+    
+    display: inline;
+}
+.header{
+    position: fixed;
+}
+.project{
+    width: 20%;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+.bottom{
+    width: 40%;
+    margin: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+.bottom_top{
+    float: right;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+  }
